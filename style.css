@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+/*Varible Control*/
+:root{
+    --primary-color:#000;
+    --secondary-color:#fff;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+}
+.time{
+    font-size: 60px;
+}
+.toggle{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 340px;
+}
+html.dark{
+    --primary-color:#fff;
+    --secondary-color:#333;
+}
+html.dark{
+    background-color: #111;
+    color: var(--primary-color);
+}
